@@ -31,3 +31,16 @@ Development is done in the GHPython components in the brimstone_[version].gh fil
 ## Contact
 
 Author: Toivo Säwén, sawen@chalmers.se
+
+## Changelog
+
+### 0.1.0
+
+* Initial version
+
+### 0.1.1
+
+* Fixed bug with energy category
+* Allow list access to resources
+* Include name in output
+* Allow for extracting custom data
