@@ -29,12 +29,16 @@ Latest version is 0.1.2
     * Unfortunately there is no way of automating this for now
 * Make sure that /dist_template/README.md is up to date
 * Make sure to push any changes to Git as detailed below
-* Place the following files in /dist/brimstone_[version]/ and zip them (the pack_brimstone.py utility can automate this): 
+* Place the following files in /dist/brimstone_[version]/ and zip them: 
     * .ghuser files for each component
     * brimstone_[version].gh
     * klimatdatabas_[version].json
+    * [version]_HBKlimatdatabas.csv
     * License.txt (can be found in /dist_template/)
     * README.md (can be found in /dist_template/)
+* The pack_brimstone.py utility can automate this:
+    * Run using `python pack_brimstone.py -v [version]`
+    * Use at your own peril!
 * Upload the .zip file to Food4Rhino
 
 ### Git usage
@@ -52,6 +56,10 @@ Latest version is 0.1.2
 Author: Toivo Säwén, sawen@chalmers.se
 
 ## Changelog
+
+### 0.1.3
+* Added multiple components for interacting with Honeybee model
+* These components require Ladybug Tools 1.6.0 to be installed.
 
 ### 0.1.2
 
