@@ -62,6 +62,9 @@ Author: Toivo Säwén, sawen@chalmers.se
 
 ### 0.1.4
 * Fixed not being able to enter custom (string) data into the "Calculate Solid Geometry" component
+* Added new components to create a resource and add it to the database
+* Reorganised user objects
+* Started refactoring to use global .py file rather than spread out information
 
 ### 0.1.3
 * Added multiple components for interacting with Honeybee model
