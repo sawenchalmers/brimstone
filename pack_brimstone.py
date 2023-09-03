@@ -7,6 +7,7 @@ import shutil
 def main(args):
 	version = args.version
 	if not version:
+		print("no version specified using -v, exiting")
 		return
 	target_dir = f"./dist/brimstone_{version}"
 	try:
