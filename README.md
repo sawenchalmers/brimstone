@@ -23,7 +23,7 @@ Latest version is 0.1.2
 * Development is done in the GHPython components in the brimstone_[version].gh file
 
 ### Releasing a new version
-* Version increments are done globally by updating `scriptcontext.sticky["brimstone_version"]` in the "Brimstone - 0. Fly!" component
+* Version increments are done globally by updating `brimstone.globals.version` in brimstone.py file
 * To save a new version of a component, make any changes, and then for each component go to File > Create User Object in Grasshopper
     * Change the sub-category to the current version
     * Unfortunately there is no way of automating this for now
@@ -32,8 +32,11 @@ Latest version is 0.1.2
 * Place the following files in /dist/brimstone_[version]/ and zip them: 
     * .ghuser files for each component
     * brimstone_[version].gh
-    * klimatdatabas_[version].json
-    * [version]_HBKlimatdatabas.csv
+    * brimstone.py
+    * brimstone_data folder containing:
+        * [version]klimatdatabas_hb_materials.json
+        * [version]_HBKlimatdatabas.csv
+        * klimatdatabas_[version].json
     * License.txt (can be found in /dist_template/)
     * README.md (can be found in /dist_template/)
 * The pack_brimstone.py utility can automate this:
@@ -56,6 +59,9 @@ Latest version is 0.1.2
 Author: Toivo Säwén, sawen@chalmers.se
 
 ## Changelog
+
+### 0.1.4
+* Fixed not being able to enter custom (string) data into the "Calculate Solid Geometry" component
 
 ### 0.1.3
 * Added multiple components for interacting with Honeybee model

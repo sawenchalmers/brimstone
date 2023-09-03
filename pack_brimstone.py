@@ -14,7 +14,7 @@ def main(args):
 		for file in os.listdir("."):
 			if file.endswith(".ghuser"):
 				shutil.move(f"./{file}", f"{target_dir}/{file}")
-			elif file == f"brimstone_{version}.gh":
+			elif file == f"brimstone_{version}.gh" or file == "brimstone.py":
 				shutil.copy(f"./{file}", f"{target_dir}/{file}")
 
 		for item in os.listdir("./dist_template"):
