@@ -23,12 +23,15 @@ def main(args):
 			if os.path.isfile(item):
 				file = item
 				shutil.copy(f"./dist_template/{file}", f"{target_dir}/{file}")
-			else:
-				folder = item
-				os.mkdir(f"{target_dir}/{folder}")
-				for file in os.listdir(f"./dist_template/{folder}"):
-					shutil.copy(f"./dist_template/{folder}/{file}", f"{target_dir}/{folder}/{file}")
+		
+		os.mkdir(f"{target_dir}/brimstone_data")
+		for item in os.listdir("./brimstone_data"):
+			print(item)
+			if os.path.isfile(item):
+				file = item
+				shutil.copy(f"./brimstone_data/{file}", f"{target_dir}/brimstone_data/{file}")
 		shutil.make_archive(target_dir, "zip", target_dir)
+
 	except:
 		# it failed, remove the broken directory
 		shutil.rmtree(target_dir)

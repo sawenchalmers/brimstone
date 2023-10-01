@@ -60,6 +60,9 @@ Author: Toivo Säwén, sawen@chalmers.se
 
 ## Changelog
 
+### 0.1.5
+* Fixed inconsistent encodings being used to read the JSON data
+
 ### 0.1.4
 * Fixed not being able to enter custom (string) data into the "Calculate Solid Geometry" component
 * Added new components to create a resource and add it to the database
