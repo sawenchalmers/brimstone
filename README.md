@@ -2,21 +2,8 @@
 
 This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API or file access, and makes data available in Grasshopper. The plugin is [available on Food4Rhino](https://www.food4rhino.com/en/app/brimstone?lang=en).
 
-## Latest version
-
-Latest version is 0.1.2
-
-## Components
-
-### 0. Fly!
-
-### 1. Get categories
-
-### 2. Get resources
-
-### 3. Get LCA data
-
-### 4. Calculate solid geometry
+## Features
+* Info about component contents is maintained in /dist_template/Readme.md
 
 ## Development
 

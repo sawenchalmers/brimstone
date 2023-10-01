@@ -1,4 +1,4 @@
-# Brimstone 0.1.4
+# Brimstone 0.1.5
 
 This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API or file access, and makes data available in Grasshopper.
 
