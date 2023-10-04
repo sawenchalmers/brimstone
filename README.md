@@ -31,15 +31,35 @@ This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API
     * Use at your own peril!
 * Upload the .zip file to Food4Rhino
 
-### Git usage
-
+## Git usage (general)
 * `git add .` to add all changes made
 * `git commit -m"chore/fix/feat: short description of commit"` to document
     * Use `chore` for minor changes, `fix` for bug fix, `feat` for new feature
+
+### Git usage (authorised users)
+
 * `git pull` to get updates from server (fix any merge issues)
 * `git push` to push to server
 
-### Incrementing version
+### Git usage (unauthorised users)
+
+* In GitHub, navigate to https://github.com/sawenchalmers/brimstone/
+* Create a fork
+    * In the top bar, click "Fork" and "+ Create a new fork"
+* Clone the fork
+* Make any changes locally
+* When you are ready to merge with the main branch, create a pull request
+    * In GitHub, navigate to https://github.com/sawenchalmers/brimstone/
+    * Click "New pull request"
+    * Click "compare across fork" under the page title
+    * Select the main fork as the "base repository"
+    * Select your fork as the "head repository"
+    * Click "Create pull request"
+    * Give the pull request a title and comments as relevant
+    * Click "Create pull request"
+    * Done!
+
+
 
 ## Contact
 
