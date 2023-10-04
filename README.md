@@ -49,6 +49,8 @@ This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API
 * Clone the fork
 * Make any changes locally
 * When you are ready to merge with the main branch, create a pull request
+    * In GitHub, navigate to your forked repository
+    * Press "sync changes" to get any changes from the main repository
     * In GitHub, navigate to https://github.com/sawenchalmers/brimstone/
     * Click "New pull request"
     * Click "compare across fork" under the page title
