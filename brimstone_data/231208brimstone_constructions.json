@@ -1,0 +1,20 @@
+{
+    "roof-constructions":
+    {
+        "construction-a":
+        {
+            "name": "Construction A",
+            "id": "construction-a",
+            //"mode": "opaque",
+            "layers": [
+                "Particle board",
+                "Particle board"
+            ],
+            "thicknesses": [
+                0.200,
+                0.300
+            ],
+            "comment": "made up as a sketch"
+        }
+    }
+}
