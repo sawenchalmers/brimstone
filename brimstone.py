@@ -1,7 +1,7 @@
 from Grasshopper.Kernel import GH_RuntimeMessageLevel as Message
 
 class globals:
-    version = "0.1.5"
+    version = "0.1.6"
     kdb_json_path = "brimstone_data/klimatdatabas_02.04.000.json"
     boverket_energy_schedules_path = "brimstone_data/231219hb_boverket_energy_schedules.json"
     kdb_hb_json_path = "brimstone_data/231211klimatdatabas_hb_materials.json"

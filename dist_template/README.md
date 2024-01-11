@@ -1,4 +1,4 @@
-# Brimstone 0.1.5
+# Brimstone 0.1.6
 
 This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API or file access, and makes data available in Grasshopper.
 
@@ -17,7 +17,7 @@ This .zip file contains:
 * Brimstone - Get Resources.ghuser
 * Brimstone - Honeybee Construction from Klimatdatabas materials.ghuser
 * Brimstone - Modify thicknesses of Honeybee materials.ghuser
-* brimstone_0.1.5.gh
+* brimstone_0.1.6.gh
 * brimstone.py
 * brimstone_data folder
     * 231211klimatdatabas_hb_materials.json
