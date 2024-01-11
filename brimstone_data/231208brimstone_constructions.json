@@ -1,20 +1,24 @@
 {
-    "roof-constructions":
-    {
-        "construction-a":
+    "categories": [
         {
-            "name": "Construction A",
-            "id": "construction-a",
-            //"mode": "opaque",
-            "layers": [
-                "Particle board",
-                "Particle board"
-            ],
-            "thicknesses": [
-                0.200,
-                0.300
-            ],
-            "comment": "made up as a sketch"
+            "id": "roof-constructions",
+            "name": "Roof constructions",
+            "comment": "Exterior roof constructions",
+            "constructions": [
+                {
+                    "name": "Construction A",
+                    "id": "construction-a",
+                    "layers": [
+                        "Particle board",
+                        "Particle board"
+                    ],
+                    "thicknesses": [
+                        0.200,
+                        0.300
+                    ],
+                    "comment": "made up as a sketch"
+                }
+            ]
         }
-    }
+    ]
 }

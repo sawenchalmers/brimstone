@@ -71,6 +71,8 @@ Author: Toivo Säwén, sawen@chalmers.se
 
 ### 0.1.5
 * Fixed inconsistent encodings being used to read the JSON data
+* Replaced Klimatdatabas API URL
+* Updated database mapping from Klimatdatabas to Honeybee
 
 ### 0.1.4
 * Fixed not being able to enter custom (string) data into the "Calculate Solid Geometry" component
