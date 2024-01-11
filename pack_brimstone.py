@@ -14,20 +14,22 @@ def main(args):
 		os.mkdir(target_dir)
 		for file in os.listdir("."):
 			if file.endswith(".ghuser"):
-				shutil.move(f"./{file}", f"{target_dir}/{file}")
+				print(f"copied {file}")
+				shutil.copy(f"./{file}", f"{target_dir}/{file}")
 			elif file == f"brimstone_{version}.gh" or file == "brimstone.py":
+				print(f"copied {file}")
 				shutil.copy(f"./{file}", f"{target_dir}/{file}")
 
 		for item in os.listdir("./dist_template"):
-			print(item)
-			if os.path.isfile(item):
+			if os.path.isfile(f"./dist_template/{item}"):
+				print(f"copied {item}")
 				file = item
 				shutil.copy(f"./dist_template/{file}", f"{target_dir}/{file}")
 		
 		os.mkdir(f"{target_dir}/brimstone_data")
 		for item in os.listdir("./brimstone_data"):
-			print(item)
-			if os.path.isfile(item):
+			if os.path.isfile(f"./brimstone_data/{item}"):
+				print(f"copied {item}")
 				file = item
 				shutil.copy(f"./brimstone_data/{file}", f"{target_dir}/brimstone_data/{file}")
 		shutil.make_archive(target_dir, "zip", target_dir)

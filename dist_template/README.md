@@ -17,12 +17,14 @@ This .zip file contains:
 * Brimstone - Get Resources.ghuser
 * Brimstone - Honeybee Construction from Klimatdatabas materials.ghuser
 * Brimstone - Modify thicknesses of Honeybee materials.ghuser
-* brimstone_0.1.4.gh
+* brimstone_0.1.5.gh
 * brimstone.py
 * brimstone_data folder
-    * 230721klimatdatabas_hb_materials.json
+    * 231211klimatdatabas_hb_materials.json
+    * 231208brimstone_constructions.json
     * 230728_HBKlimatdatabas.csv
     * klimatdatabas_02.04.000.json
+    * 231219hb_boverket_energy_schedules.json
 * README.md (this file)
 * License.txt
 
