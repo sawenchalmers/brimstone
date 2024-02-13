@@ -6,9 +6,11 @@ This Grasshopper plugin retrieves data from Boverket's Klimatdatabas through API
 
 This .zip file contains:
 
+* Brimstone - Add Life Cycle Info to Honeybee Construction.ghuser
 * Brimstone - Add Life Cycle Info to Honeybee Material.ghuser
 * Brimstone - Add resource to Klimatdatabas data.ghuser
 * Brimstone - Calculate Embodied Carbon of Honeybee Model.ghuser
+* Brimstone - Calculate Operational Emissions.ghuser
 * Brimstone - Calculate Solid Geometry.ghuser
 * Brimstone - Create Klimatdatabas resource.ghuser
 * Brimstone - Fly!.ghuser
@@ -20,11 +22,11 @@ This .zip file contains:
 * brimstone_0.1.6.gh
 * brimstone.py
 * brimstone_data folder
-    * 231211klimatdatabas_hb_materials.json
-    * 231208brimstone_constructions.json
     * 230728_HBKlimatdatabas.csv
-    * klimatdatabas_02.04.000.json
+    * 231208brimstone_constructions.json
+    * 231211klimatdatabas_hb_materials.json
     * 231219hb_boverket_energy_schedules.json
+    * klimatdatabas_02.05.000.json
 * README.md (this file)
 * License.txt
 

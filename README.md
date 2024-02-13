@@ -70,7 +70,10 @@ Author: Toivo Säwén, sawen@chalmers.se
 ## Changelog
 
 ### 0.1.6
-*
+* Included component to calculate operational emissions
+* Updated GWP calculation to use material `user_data` instead of `properties`
+* Fixed GWP calculation ignoring GWP user data
+* Updated to Klimatdatabas 02.05.000
 
 ### 0.1.5
 * Fixed inconsistent encodings being used to read the JSON data
