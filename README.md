@@ -69,6 +69,15 @@ Author: Toivo Säwén, sawen@chalmers.se
 
 ## Changelog
 
+### 0.1.7
+* LCA result output per module added
+* Fixed Air Boundaries crashing the LCA calculation
+* Fixed bug with aperture GWP calculation
+* Fixed another bug with aperture GWP calculation
+* Data validation when setting GWP data for apertures and materials
+* Fly component is a bit more intelligent: https://github.com/sawenchalmers/brimstone/issues/6
+* Updated to Klimatdatabas 02.06.000
+
 ### 0.1.6
 * Included component to calculate operational emissions
 * Updated GWP calculation to use material `user_data` instead of `properties`

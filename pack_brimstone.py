@@ -10,12 +10,17 @@ def main(args):
 		print("no version specified using -v, exiting")
 		return
 	target_dir = f"./dist/brimstone_{version}"
+
+	counter = {
+		"ghuser": 0,
+	}
 	try:
 		os.mkdir(target_dir)
 		for file in os.listdir("."):
 			if file.endswith(".ghuser"):
 				print(f"copied {file}")
 				shutil.copy(f"./{file}", f"{target_dir}/{file}")
+				counter["ghuser"] += 1
 			elif file == f"brimstone_{version}.gh" or file == "brimstone.py":
 				print(f"copied {file}")
 				shutil.copy(f"./{file}", f"{target_dir}/{file}")
@@ -41,6 +46,9 @@ def main(args):
 		if os.path.isfile(zip_file):
 			os.remove(zip_file)
 		raise
+
+	ghuser_counter = counter["ghuser"]
+	print(f"{ghuser_counter} .ghuser files copied")
 
 
 if __name__ == '__main__':

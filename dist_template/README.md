@@ -26,7 +26,7 @@ This .zip file contains:
     * 231208brimstone_constructions.json
     * 231211klimatdatabas_hb_materials.json
     * 231219hb_boverket_energy_schedules.json
-    * klimatdatabas_02.05.000.json
+    * klimatdatabas_02.06.000.json
 * README.md (this file)
 * License.txt
 
