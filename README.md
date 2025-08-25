@@ -69,6 +69,8 @@ Author: Toivo Säwén, sawen@chalmers.se
 
 ## Changelog
 
+### 0.1.8
+
 ### 0.1.7
 * LCA result output per module added
 * Fixed Air Boundaries crashing the LCA calculation
